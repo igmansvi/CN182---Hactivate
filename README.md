@@ -21,14 +21,14 @@ The expected outcome is a functional and visually appealing online marketplace t
 ```mermaid
 graph TD
     A[Planning and Setup] --> B[Defining project objectives]
-    A --> C[Artisan Profiles]
-    A --> D[Local Community Interaction]
-    A --> E[Product Listing and Order Management]
+    B --> C[Artisan Profiles]
+    B --> D[Local Community Interaction]
+    B --> E[Product Listing and Order Management]
 
-    B --> F[Researching Existing Community]
-    B --> G[Deciding Technology and Design Architecture]
-    B --> H[Preparing Wireframe and User Interaction]
-    B --> I[Developing Prototype]
+    A --> F[Researching Existing Community]
+    A --> G[Deciding Technology and Design Architecture]
+    A --> H[Preparing Wireframe and User Interaction]
+    A --> I[Developing Prototype]
 ```
 #### Deploments and Add-ons
 - Implmenting user authentication and authorization
