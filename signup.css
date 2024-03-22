@@ -1,7 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login - Karigari</title>
+	<link rel="" type="text/css" href="">
+    <style>
+
 
 
 .container {
-	width: 400px;
+	width: 300px;
 	margin: 0 auto;
 	background-color: rgba(225,221,225,0.6);
 	padding: 20px;
@@ -138,3 +145,80 @@ p a:hover {
     display: flex;
     flex-direction: column;
   }
+
+
+</style>
+
+</head>
+<body>
+	<header>
+        <nav>
+            <div class="nav-bar">
+                <div id="webtitle">Karigiri</div>
+                <div class="nav-btn">
+                    <a href="">Home</a>
+                    <a href="">Explore</a>
+                    <a href="">Shop</a>
+                </div>
+                <div class="ext">
+                    <a href="">Join Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+	<div class="container">
+		
+		</u>
+		<h1> Login</h1>
+		
+		<form action="/login" method="post">
+			
+			<label for="email">Email Address:</label>
+			<input type="email" name="email" id="email" required>
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" required>
+			<button  type="submit">Login</button>
+		</form>
+		
+		<p>Don't have an account? <a href="/signup">Sign up now</a></p>
+	</div>
+
+
+
+	<footer>
+        <div id="footer-ttile">
+            <h1>Karigiri</h1>
+            <h3>A Marketplace for Unique, <br>
+                local Indian Crafters.
+            </h3>
+        </div>
+        <div id="contact">
+            <div class="explore">
+                <h2>Explore</h2>
+                <a href="">Shop</a>
+                <a href="">Artist</a>
+                <a href="">Events</a>
+            </div>
+            <div class="support">
+                <h2>Support</h2>
+                <a href="">FAQ</a>
+                <a href="">Pocily</a>
+                <a href="">Terms and Conditions</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="social">
+                <h2>Social</h2>
+                <a href="">Instagram</a>
+                <a href="">Facebook</a>
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <a href="">info@karigari.com</a>
+                <a href="">+91 7209478632</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>
