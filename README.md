@@ -6,13 +6,13 @@ In today's digital age, local artisans often struggle to reach a wider audience 
 ## Outcome
 The expected outcome is a functional and visually appealing online marketplace that connects local artisans with buyers in a user-friendly and secure environment. The application should demonstrate effective use of full-stack development principles, showcasing seamless integration between frontend and backend components. Additionally, provide documentation and instructions for deploying the application to a production environment.
 
-### Workplan
--  Planning and Setup:
- Defining project objectives
+## Workplan
+### Planning and Setup:
+#### Defining project objectives
 - Artisan Profile's
 - Local Community interaction
 - Product Listing and Order Managements
- WorkFlow:
+#### WorkFlow:
 - Researching Existing Community
 - Deciding Technology and design architecture
 - Preparing Wireframe and User interaction
