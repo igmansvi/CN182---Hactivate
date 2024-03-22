@@ -18,7 +18,8 @@ The expected outcome is a functional and visually appealing online marketplace t
 - Preparing Wireframe and User interaction
 - Developing Prototype
 
-flowchart TD
+```mermaid
+graph TD
     A[Planning and Setup] --> B[Defining project objectives]
     A --> C[Artisan Profiles]
     A --> D[Local Community Interaction]
@@ -28,3 +29,4 @@ flowchart TD
     B --> G[Deciding Technology and Design Architecture]
     B --> H[Preparing Wireframe and User Interaction]
     B --> I[Developing Prototype]
+```
