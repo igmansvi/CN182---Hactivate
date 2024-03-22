@@ -1,0 +1,140 @@
+
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+	background-color: rgba(225,221,225,0.6);
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	margin-top: 100px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+label {
+	display: block;
+	margin: 5px;
+}
+
+input[type="email"], input[type="password"],input[type="text"] {
+	width: 94%;
+	padding: 5px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+
+button {
+	background-color: #4CAF50;
+	color: white;
+    
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #5840BA;
+}
+
+p {
+	text-align: center;
+	margin-top: 30px;
+}
+
+p a {
+	color: #4CAF50;
+	text-decoration: none;
+    text-align:right;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+* {
+    font-family: poppins;
+  }
+  
+  body {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  
+  nav {
+    height: 20vh;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px 0 10px;
+  }
+  
+  #webtitle {
+    font-size: 32px;
+    font-family: "Tiro Devanagari Hindi", serif;
+    cursor: pointer;
+  }
+  
+  .nav-btn {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-btn a {
+    text-decoration: none;
+    color: black;
+  }
+  .ext a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-bar a:hover,
+  .ext a:hover {
+    text-decoration: underline;
+    transition: all ease-in 3s;
+  }
+
+  footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  #contact {
+    display: flex;
+    gap: 30px;
+    margin-left: 74vh;
+  }
+  
+  #contact a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .explore,
+  .support,
+  .social,
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
