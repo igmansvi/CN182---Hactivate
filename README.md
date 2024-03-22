@@ -39,3 +39,5 @@ graph TD
 
 #### Extra Add-ons
 - Implementing system to support local craftmens
+- Adding interaction options for businesses to interact with artisan's
+- Developing community feedback and discussion forums for improvements
