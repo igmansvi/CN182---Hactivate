@@ -10,10 +10,21 @@ The expected outcome is a functional and visually appealing online marketplace t
 ### Planning and Setup:
 #### Defining project objectives
 - Artisan Profile's
-- Local Community interaction
+- Community interaction
 - Product Listing and Order Managements
 #### WorkFlow:
 - Researching Existing Community
 - Deciding Technology and design architecture
 - Preparing Wireframe and User interaction
 - Developing Prototype
+
+flowchart TD
+    A[Planning and Setup] --> B[Defining project objectives]
+    A --> C[Artisan Profiles]
+    A --> D[Local Community Interaction]
+    A --> E[Product Listing and Order Management]
+
+    B --> F[Researching Existing Community]
+    B --> G[Deciding Technology and Design Architecture]
+    B --> H[Preparing Wireframe and User Interaction]
+    B --> I[Developing Prototype]
