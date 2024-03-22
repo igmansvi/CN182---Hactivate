@@ -30,3 +30,12 @@ graph TD
     B --> H[Preparing Wireframe and User Interaction]
     B --> I[Developing Prototype]
 ```
+#### Deploments and Add-ons
+- Implmenting user authentication and authorization
+- Developing product listing and order manangement functionality
+- Integrating searching and filtering mechanisms
+- Adding secure payment gatways
+- Devloping community disscusion and interaction system
+
+#### Extra Add-ons
+- Implementing system to support local craftmens
