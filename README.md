@@ -45,9 +45,10 @@ graph TD
 graph TD
     A[Work FLowchart and progress] --> B[Intractive Main Page - Done]
     B --> C[Main Page Sub-Sections - Done]
-    c --> D[Home, Explore, Shop - Done]
+    C --> D[Home, Explore, Shop - Done]
     D --> E[Login, SignUp - Done]
     E --> F[InterConnection - Done]
     F --> G[Styles for Each Page - Done]
     G --> H[Updated Example DataSet for Prototype - Done]
 ```
+# [Click Here](igmansvi.github.io/CN182-Hactivate/) to visit currently deployed page.
