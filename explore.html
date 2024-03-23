@@ -27,15 +27,113 @@
     </header>
 
     <main>
-        
+        <section class="hero-section">
+            <h1>
+                "Local artisan craftsmanship is more than just a skill; <br>
+                it's a story woven into every thread, carved into every curve, and painted onto every surface. <br>
+                 It's a celebration of tradition, a testament to heritage, and a dedication to preserving the beauty of culture through the hands of those who understand its essence."</h1>
+        </section>
+
+
+        <div class="products">
+            <div class="product-card" onclick="toggleDetails(this)">
+                <img src="Jaipuri-Handcrafted.jpg" alt="">
+                <h3>Jaipuri HandCrafted Rug</h3>
+                <p>Original Authenthic Jaipuri Style hand-made with love.</p>
+                <div class="product-details">
+                    <h3>Artisan Details</h3>
+                    <p>Category: Category Name</p>
+                    <p>Description of the product goes here...</p>
+                    <p>Price: $XX.XX</p>
+                    <p>Address: </p>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="toggleDetails(this)">
+                <img src="Dauri.jpg" alt="">
+                <h3>Bamboo Basket</h3>
+                <p>From Nature, Specially Crafted Bamboo Baskets.</p>
+                <div class="product-details">
+                    <h3>Artisan Details</h3>
+                    <p>Category: Category Name</p>
+                    <p>Description of the product goes here...</p>
+                    <p>Price: $XX.XX</p>
+                    <p>Address: </p>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="toggleDetails(this)">
+                <img src="Natural-Wood-Arjun-Rath.jpg" alt="">
+                <h3>Wooden Rath</h3>
+                <p>The tale of MahaBharata, Added to Woods.</p>
+                <div class="product-details">
+                    <h3>Artisan Details</h3>
+                    <p>Category: Category Name</p>
+                    <p>Description of the product goes here...</p>
+                    <p>Price: $XX.XX</p>
+                    <p>Address: </p>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="toggleDetails(this)">
+                <img src="handmade-bamboo-jug.jpg" alt="">
+                <h3>Bamboo Jug</h3>
+                <p>A sip  from the heart.</p>
+                <div class="product-details">
+                    <h3>Artisan Details</h3>
+                    <p>Category: Category Name</p>
+                    <p>Description of the product goes here...</p>
+                    <p>Price: $XX.XX</p>
+                    <p>Address: </p>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="toggleDetails(this)">
+                <img src="Radhe-Krshna-bamboo.jpg" alt="">
+                <h3>Radhe Krishna Bamboo Artifact</h3>
+                <p>Jai Shri Krishna</p>
+                <div class="product-details">
+                    <h3>Artisan Details</h3>
+                    <p>Category: Category Name</p>
+                    <p>Description of the product goes here...</p>
+                    <p>Price: $XX.XX</p>
+                    <p>Address: </p>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="toggleDetails(this)">
+                <img src="round-clay-handi.jpg" alt="">
+                <h3>Clay Handi</h3>
+                <p>Best for home use, Mithi ki Handi</p>
+                <div class="product-details">
+                    <h3>Artisan Details</h3>
+                    <p>Category: Category Name</p>
+                    <p>Description of the product goes here...</p>
+                    <p>Price: $XX.XX</p>
+                    <p>Address: </p>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="toggleDetails(this)">
+                <img src="Fabricated Buttons.jpg" alt="">
+                <h3>Fabricated Buttons</h3>
+                <p>A detailed asthetic style</p>
+                <div class="product-details">
+                    <h3>Artisan Details</h3>
+                    <p>Category: Category Name</p>
+                    <p>Description of the product goes here...</p>
+                    <p>Price: $XX.XX</p>
+                    <p>Address: </p>
+                </div>
+            </div>
+
+        </div>
     </main>
 
     <footer>
         <div id="footer-ttile">
             <h1>Karigiri</h1>
-            <h3>A Marketplace for Unique, <br>
-                local Indian Crafters.
-            </h3>
+            <h3>A Marketplace for Unique, <br> local Indian Crafters.</h3>
         </div>
         <div id="contact">
             <div class="explore">
@@ -47,7 +145,7 @@
             <div class="support">
                 <h2>Support</h2>
                 <a href="">FAQ</a>
-                <a href="">Pocily</a>
+                <a href="">Policy</a>
                 <a href="">Terms and Conditions</a>
                 <a href="./contact_us.html">Contact</a>
             </div>
@@ -63,6 +161,17 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function toggleDetails(card) {
+            var details = card.querySelector('.product-details');
+            if (details.style.display === "none" || details.style.display === "") {
+                details.style.display = "block";
+            } else {
+                details.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>
