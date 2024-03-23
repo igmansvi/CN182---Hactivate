@@ -44,8 +44,10 @@ graph TD
 ```mermaid
 graph TD
     A[Work FLowchart and progress] --> B[Intractive Main Page - Done]
-    B --> C[Main Page Sub-Sections Connection - Done]
-    c --> D[(Home, Explore, Shop) - Done]
-    D --> E[(Login, SignUp) - Done]
-    E --> F[Styles for Each Page - Done]
+    B --> C[Main Page Sub-Sections - Done]
+    c --> D[Home, Explore, Shop - Done]
+    D --> E[Login, SignUp - Done]
+    E --> F[InterConnection - Done]
+    F --> G[Styles for Each Page - Done]
+    G --> H[Updated Example DataSet for Prototype - Done]
 ```
