@@ -124,3 +124,19 @@ footer {
 .product-card:hover {
     transform: translateY(-5px);
 }
+
+.supports {
+    height: 40vh;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    background-color: #58408a;
+    padding-top: 4%;
+}
+.supports button {
+    padding: 2%;
+    margin: 4%;
+    border-radius: 20px;
+    background-color: #a4db74;
+    border-style: none;
+    cursor: pointer;
+}
