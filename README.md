@@ -51,4 +51,4 @@ graph TD
     F --> G[Styles for Each Page - Done]
     G --> H[Updated Example DataSet for Prototype - Done]
 ```
-# [Click Here](igmansvi.github.io/CN182-Hactivate/) to visit currently deployed page.
+# [Click Here](https://igmansvi.github.io/CN182-Hactivate/) to visit currently deployed page.
