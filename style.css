@@ -22,7 +22,6 @@ nav {
 
 #webtitle {
   font-size: 32px;
-  font-family: "Tiro Devanagari Hindi", serif;
   cursor: pointer;
 }
 
@@ -35,6 +34,7 @@ nav {
   text-decoration: none;
   color: black;
 }
+
 .ext a {
   text-decoration: none;
   color: black;
@@ -64,13 +64,13 @@ nav {
   border-radius: 44px 44px 0 0;
 }
 
-#explore {
-  margin: 40px;
+#explore{
   font-size: larger;
   background-color: #a4db74;
   padding: 12px 24px 12px 24px;
   border-style: none;
   border-radius: 12px;
+  margin-bottom: 24px;
 }
 
 #hero-gallery img {
@@ -112,4 +112,34 @@ footer {
 .contact {
   display: flex;
   flex-direction: column;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 4%;
+}
+.gallery img {
+  height: 300px;
+  width: 280px;
+  border: none;
+  border-radius: 16px;
+}
+
+.supports {
+  height: 45vh;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  background-color: #58408a;
+  padding-top: 4%;
+  margin-top: 40px;
+}
+.supports button {
+  padding: 1% 3%;
+  margin: 4%;
+  border-radius: 20px;
+  background-color: #a4db74;
+  border-style: none;
+  cursor: pointer;
 }
