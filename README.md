@@ -49,6 +49,7 @@ graph TD
     D --> E[Login, SignUp - Done]
     E --> F[InterConnection - Done]
     F --> G[Styles for Each Page - Done]
-    G --> H[Updated Example DataSet for Prototype - Done]
+    G --> H[Update Example DataSet for Prototype - Done]
+    H --> I[Order Management System - ]
 ```
 # [Click Here](https://igmansvi.github.io/CN182-Hactivate/) to visit currently deployed page.
